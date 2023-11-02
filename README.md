@@ -114,6 +114,11 @@ to prevent build errors.
 
 ### Locally
 
+implementation project(':exoplayer-library-core')
+implementation project(':exoplayer-library-dash')
+implementation project(':exoplayer-library-ui')
+```
+
 Cloning the repository and depending on the modules locally is required when
 using some ExoPlayer extension modules. It's also a suitable approach if you
 want to make local changes to ExoPlayer, or if you want to use a development
